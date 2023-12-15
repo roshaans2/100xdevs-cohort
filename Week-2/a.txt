@@ -1,0 +1,1 @@
+Hi, i am the contents of a.txt. So happy you read me.

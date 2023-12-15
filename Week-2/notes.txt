@@ -1,0 +1,5 @@
+Why fs is asynchronous?
+
+Whenever read function is called, it ask for the OS to read the given file. 
+It takes time to get a response. So it request the OS and move on with next line
+Hence, fs.readFile is a asynchronous function
