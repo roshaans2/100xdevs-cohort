@@ -1,0 +1,104 @@
+What is ECMAscript?
+
+ECMAScript is a scripting language specification on which Javascript is based.
+It serves as a guidelines or rules for the scripting language design
+
+ECMAScript versions - ES5, ES6
+
+What is Javascript?
+
+It is a scripting language that confirms the ECMAScript specifications. It is the most widely known and used implementation
+of ECMAScript
+
+Javascript includes additional features that are not part of ECMAScript specification, like the DOM manipulation which is not defined
+by ECMAScript
+
+NodeJS - Some backend things is added to Javascript
+
+
+What is Bun?
+
+NodeJS is slow. JS runtime is re-writtened for Backend and  introduced Bun
+
+
+NodeJS is predominately used to create HTTP Server.
+
+What is HTTP server?
+
+A protocol that is defined for machines to communicate.
+It is the most common way for your website's frontend to talk to your backend.
+
+Protocal - Whenever people meet, they know that they are supposed to talk to each other
+
+How to frontend talks to backend? Wires/Routers
+
+What is HTTP Server?
+
+Some code that follows HTTP protocol and is able to communicate with clients
+
+
+client throws some information at the server.
+Server does something with that information
+Server responding back with final result
+
+HTTP Client side - 
+Protocal - HTTP
+Adress - URL, IP, PORT
+Route
+Headers, Body, Query params
+Method
+
+HTTP Server side - 
+Response Headers
+Response body
+Status codes
+
+https://chat.openai.com/backend-api/conversation
+
+https - protocol
+chat.openai.com - URL
+backend-api/conversation - Route
+Header - Cookie (Has authentication information)
+Body - What is 2+2 (Actually JSON)
+Method - POST
+
+Response Header
+Response Body - 2+2 Equals 4
+Status code - 200
+
+Interview question - 
+
+What happens after you type google.com and give enter?
+
+Browser parses the URL
+Does the DNS lookup (Converts google.com to an IP)
+Established a connection to the IP (does a handshake)
+
+What is DNS resolution?
+
+URLS are just like contacts in your phone
+In the end, they map to an IP
+If you ever buy a url of your own, you will need to point it to the IP of your server.
+
+Things that happen on your server after request is recieved - 
+
+You get the inputs route, body, header
+You do some logic on the input, calculate the output
+You return the output body, headers and status code
+
+Common Methods - 
+
+GET
+POST
+PUT
+DELETE
+
+
+Status Codes - 
+
+200 - Everything is Ok
+404 - Page not found
+403 - Authentication issues
+500 - Internal Server Error
+
+
