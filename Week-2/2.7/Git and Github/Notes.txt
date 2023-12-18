@@ -1,0 +1,19 @@
+What is Git?
+
+Free and Open source Version Control System
+
+What is Version Control System?
+
+revert project to previous states
+compare changes over time
+
+What is Github?
+
+Github is a web-based hosting service for git repositories
+
+Clone - Bring a repository hosted somewhere like Github into a folder on your local machine
+Add - Track your files and changes in Git
+Commit - Save your files in Git
+Push - Upload your commits to Git Repo, like Github
+Pull - Download changes from remote repository to your local repository
+
