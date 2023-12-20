@@ -1,0 +1,15 @@
+What are Middlewares?
+
+Middlewares are for precheck.
+Two types of precheck occur in real world. They are authentication and input validation
+It actually the logic that occurs between request and response
+
+Only if next() is specified, control will reach to main logic
+
+app.use() must be put only at the top, then only next() will go correctly. It can find the next logic to implement
+
+We can put app.use() at end if we need to handle exceptions
+
+Global catches help you to give user a better error message
+It has four arguments err,req,res,next
+
