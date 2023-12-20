@@ -13,3 +13,15 @@ We can put app.use() at end if we need to handle exceptions
 Global catches help you to give user a better error message
 It has four arguments err,req,res,next
 
+
+Zod is an independent library that validates user input
+
+
+Authentication - 
+
+A request is made from browser. Once credentials are validated, the server returns a token
+Client stores the token in local Storage
+For every subsequent request you send this token along with request
+Now server doesn't take username and password, it just check the token and return resources
+
+
