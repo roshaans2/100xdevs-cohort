@@ -25,3 +25,32 @@ For every subsequent request you send this token along with request
 Now server doesn't take username and password, it just check the token and return resources
 
 
+Hashing - Hashing is one way. You can only convert string to a hash. You cannot convert hash back to a string
+
+Encryption - Encryption is two way. You can convert a string to a hash (Cipher text) using a key and revert back original string using the same key.
+
+
+Json Web Tokens - 
+
+It takes JSON as an input
+It is used on the Web
+It gives token as the output
+
+Anyone who has token can see the input Json
+
+          Password
+            |
+input ->  hashing      -> Token
+          (Encoding)
+
+
+            Password
+              |
+Token -> (Verification)-> input
+       
+
+
+Whenever user logins with username and password, the backend Server checks the database and after verifying returns a jwt token
+This token is stored in Client's localstorage and send along with subsequent request
+For subsequent request, the backend server just verifies token and response
+

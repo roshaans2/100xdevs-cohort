@@ -18,6 +18,6 @@ const validateCredentials = (obj) => {
 }
 
 
-// validateInput([1,2,3,4,5])
+validateInput([1,2,3,4,5])
 
 validateCredentials({email:"abc@gmail.com",password:"password"})
