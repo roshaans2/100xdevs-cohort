@@ -54,3 +54,5 @@ Whenever user logins with username and password, the backend Server checks the d
 This token is stored in Client's localstorage and send along with subsequent request
 For subsequent request, the backend server just verifies token and response
 
+Try catch - The benefit of adding try catch is to proceed with execution even after code. In case of normal program, the program will terminate after error
+But with try catch, it will execute statement in catch and process with next line
