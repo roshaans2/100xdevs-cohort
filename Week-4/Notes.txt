@@ -1,0 +1,3 @@
+DOM - Document Object Model
+Dom represents the document as a tree of objects
+Each object represents a part of page

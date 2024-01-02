@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM</title>
+    <script>
+        let timeout;
+        function debounceCalc(){
+            clearTimeout(timeout)
+            timeout = setTimeout(()=>{
+                calc()
+            },1000)
+        }
+
+        async function calc() {
+            const a = document.getElementById("a").value;
+            const b = document.getElementById("b").value;
+            const url = `http://localhost:5000/sum?a=${a}&b=${b}`
+            const response = await fetch(url)
+            const sum = await response.text()
+            console.log(sum)
+            document.getElementById("result").innerHTML = `Sum : ${sum}`
+        }
+    </script>
+</head>
+
+<body>
+    <input oninput="debounceCalc()" type="number" id="a"><br>
+    <input oninput="debounceCalc()" type="number" id="b"><br>
+    <div id="result">
+
+    </div>
+</body>
+
+</html>
