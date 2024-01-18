@@ -1,0 +1,11 @@
+What is jsx?
+
+A js file inside which you can write both js and xml
+
+npm run build - This line will convert react code in html,css, js. It will create a dist folder which contains a html file and js file which can be
+hosted
+
+dist -> index.html,----.js
+When you open index.html in browser you can see the output of React application
+
+
