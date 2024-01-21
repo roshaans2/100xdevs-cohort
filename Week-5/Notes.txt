@@ -8,4 +8,11 @@ hosted
 dist -> index.html,----.js
 When you open index.html in browser you can see the output of React application
 
+Virtual Dom - Exact copy of DOM. It tries to find the difference between original and copy. And based on the difference it calculates
+what it needs to do
+
+What is Wrapper Component?
+
+A component takes another component as input
+
 

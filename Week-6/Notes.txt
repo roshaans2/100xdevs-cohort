@@ -1,0 +1,10 @@
+Why a component always render a single top level xml?
+
+It makes it easy to do reconciliation 
+
+When rerenders happen?
+
+A state variable that is being used inside a component changes.
+A parent component re-render triggers all children re-rendering.
+
+memo - It skips rerendering when it props are unchanged
