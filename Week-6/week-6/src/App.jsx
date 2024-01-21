@@ -5,12 +5,13 @@ import './App.css'
 import Rerender from './components/Rerender'
 import Wrapper from './components/Wrapper'
 import RealWrapper from './components/RealWrapper'
+import UseEffect from './components/UseEffect'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <RealWrapper/>
+    <UseEffect/>
   )
 }
 
