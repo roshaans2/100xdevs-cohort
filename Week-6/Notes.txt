@@ -8,3 +8,10 @@ A state variable that is being used inside a component changes.
 A parent component re-render triggers all children re-rendering.
 
 memo - It skips rerendering when it props are unchanged
+
+The functions that start with use are called hooks. 
+They let you hook into the React States and life cycle features.
+They helps us to do lifecycle events
+
+
+
