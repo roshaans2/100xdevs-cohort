@@ -13,5 +13,21 @@ The functions that start with use are called hooks.
 They let you hook into the React States and life cycle features.
 They helps us to do lifecycle events
 
+useState - Let's you describe the state of your app. Whenever state updates, it triggers a re-render which finally results in DOM update.
+useEffect - It allows you to perform side effects in function component. Side effects are operations that can affect other components or can't
+be done during rendering, such as data fetching, subscriptions, or manually changing the DOM in React Components.
 
+dependency array - It decides when should the callback function run.
+
+What is memoization?
+
+It means remembering some output given an input and not computing it again.
+
+useMemo - It is used if you want to remeber values across renders. memoize the value acorss re-renders. Only recalculates if inputVal changes
+
+useCallback - It is used to memoize functions acorss rerenders
+
+When there is a change in the state or props of a React component, React goes through a process called reconciliation to determine the minimal set of changes needed to update the UI. This process involves comparing the new virtual DOM tree with the previous one and calculating the differences (diffing) to update only the parts of the actual DOM that have changed.
+
+state - Dynamic set of things on your website are called states.
 
