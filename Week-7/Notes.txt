@@ -1,0 +1,4 @@
+Routing in react is done using React Router DOM
+
+Prop drilling - Keep passing down the prop in the chain
+
