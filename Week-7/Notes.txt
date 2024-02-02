@@ -2,3 +2,24 @@ Routing in react is done using React Router DOM
 
 Prop drilling - Keep passing down the prop in the chain
 
+Why do you use ContextAPI?
+
+To make syntax cleaner and get rid of Prop drilling
+
+Problem with Context?
+
+Eventhough a component does not uses State Variable, it gets re-rendered
+
+What is State management ?
+
+A cleaner way to store the state of your app. 
+
+Recoil -- 
+
+A state management library for React
+It uses concept of an atom to store the state
+An atom can be defined outside the component
+Can be teleported to any component
+
+
+
