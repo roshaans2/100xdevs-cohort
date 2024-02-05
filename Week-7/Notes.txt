@@ -22,4 +22,6 @@ An atom can be defined outside the component
 Can be teleported to any component
 
 
+atom - It is similar to state
+selector - It is derived from other atoms
 
