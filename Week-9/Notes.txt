@@ -1,0 +1,10 @@
+hooks introduces state and life cycle events in functional based components
+
+What are life cycle events?
+events that takes place whenever a component is put in DOM and taken out
+
+What is custom hook?
+
+A custom hook is effectively a function which uses another hook internally and starts with use. Hooks that you create yourself
+
+Eg: Data fetching hooks
